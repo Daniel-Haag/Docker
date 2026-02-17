@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  meu-site-nginx:
+    image: danielhaag/meu-site-nginx:v2
+    build: .
+    container_name: site2
+    restart: always
+    ports:
+      - "8080:80"
+
+  site-nginx:
+    image: danielhaag/site-nginx:v1
+    build: .
+    container_name: site1
+    restart: always
+    ports:
+      - "8081:80"
