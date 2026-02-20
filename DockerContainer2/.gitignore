@@ -1,0 +1,17 @@
+# Docker
+Dockerfile
+docker-compose*.yml
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE / Visual Studio
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*.suo
+*.user
